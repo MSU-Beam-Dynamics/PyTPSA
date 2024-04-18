@@ -58,4 +58,9 @@ PyTPSA supports both float and complex number as the derivatives of the function
     ```
     Note that after deriviative, although the maximum order remains the same, the **useful** order is reduced by 1.
 
+* To use complex number TPSA, use `dtype` argument in the initialization, for example:
+    ```
+    x=PyTPSA.tpsa(0.0, 1, dtype=complex)
+    ```
+
 
