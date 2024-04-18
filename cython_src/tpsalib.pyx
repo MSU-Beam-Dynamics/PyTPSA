@@ -6,7 +6,7 @@ from libcpp.string cimport string
 
 from libcpp cimport bool
 
-cimport tpsa_def
+from cython_src cimport tpsa_def
 
 ctypedef double complex cplx
 
